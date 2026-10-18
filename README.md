@@ -1,4 +1,4 @@
-# Zero-Training Offline Signature Verification with Gemini 4 Argon
+# Zero-Training Signature Verification with Gemini 4 Argon
 
 **100% Forgery Recall (`FN = 0 / 1,265`) and 96.89% Overall Accuracy on the CEDAR Signature Benchmark Using Visual Few-Shot Prompting and Forensic Reasoning**
 
@@ -8,7 +8,7 @@
 
 ## Overview
 
-Offline handwritten signature verification—determining whether a scanned signature on a check, contract, or legal instrument is genuine or a skilled freehand forgery—has traditionally required training specialized Siamese Convolutional Neural Networks (such as SigNet) or Vision Transformers on thousands of labeled signature pairs.
+Handwritten signature verification—determining whether a scanned signature on a check, contract, or legal instrument is genuine or a skilled freehand forgery—has traditionally required training specialized Siamese Convolutional Neural Networks (such as SigNet) or Vision Transformers on thousands of labeled signature pairs.
 
 Earlier generations of multimodal Large Language Models (LLMs) struggled on this task, either hallucinating forgery artifacts on messy genuine signatures or accepting carefully drawn tracings. This repository demonstrates how **Gemini 4 Argon (`gemini-4-argon`)**, combined with fine-grained high-resolution visual encoding (`MEDIA_RESOLUTION_HIGH`), forensic system instructions, feathering-safe background normalization, and diversity-aware dual-anchor selection, surpasses traditional deep metric learning on the industry-standard **CEDAR Signature Benchmark** with **zero model training or fine-tuning**.
 
