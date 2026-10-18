@@ -1,0 +1,22 @@
+# Dataset & Generated Telemetry CSVs
+signatures/
+*.csv
+*.zip
+*.rar
+
+# Python & Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local workspace scratch & draft files
+medium_article_gemini_signature_forgery_detection.md
+medium_post_ready_to_publish.md
+original_*.png
+signatures_mt.ipynb
+signatures_mt_latest.ipynb
+signatures_mt_patched.ipynb
+signatures_mt_patched_bak.ipynb
+signature-verification-v2-0-cedar-dataset.ipynb
